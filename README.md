@@ -7,25 +7,30 @@
     After reconnect ESP32 Wroom, find wifi "MY_BLYNK", no passport. 
      Input: wifi SSID, wifi PASSWORD, Blynk parameters. Switch "START BLYNK in work" - ON. And vualia:
     Blynk connected successfuly to your 
-     account. All for people now! 
-2. Shimansky programmed the same header to wifi and GSM.
+     account. If something wrong - push BOOT button on the controller 2 sec and you will found local wifi MY_BLYNK again.
+     All for people now!
+    
+3. Shimansky programmed the same header to wifi and GSM.
   Stupid bug that prevents smooth switching from Wi-Fi to GSM connections and vice versa.
    Fixed, see ESP32_WiFi_SSL-BLYNK_OK.ino code.
    Make a switch in your account V0, connect 18 pin to modem TX and 19pin to modem RXн. 
 The modem must be connected to a separate power source 5VDC, 2A. 
 Switch V0 in the blynk console and watch in the console how wifi or GSM is connecting in real time, reboot - no need.
  Everything for people, even from Blynk we can be made a candy.
-3. The worst code I've ever seen is definitely TinyGSM...
+4. The worst code I've ever seen is definitely TinyGSM...
 If your mobile account is not topped up, or your modem can't connect to the network,
  this goes on forever and ever... For example, your car's battery will die in an underground parking.
 I fixed that too, see the correct modem connection in the code.
 Even TinyGSM can be turned into a gem!
 
-4. I use the method I found to view coordinates on the map in the browser, if I have this data in my free Blynk account.
+5. I use the method I found to view coordinates on the map in the browser, if I have this data in my free Blynk account.
 
    All these functions can be added to your beautiful code for a small reward. Write to olegfilatov@gmx.com
+   Also you can bye finished and tested programs: "Auto alarm with GPS and GSM", "Home Helper Full function System" with remote
+   control from GyverHub app + Telegram bot.  
 ===========================================================================================================================
-1. Мы все любим Blynk. Но любой инструмент можно улучшить, поэтому я разработал способы обойти некоторые глупые ограничения.      Теперь с моей помощью вы можете динамически менять идентификатор Blynk прямо в меню WEB при первом подключении. Концептуальное решение, только для контроллера ESP32 Wroom: прошить файл BOLVANKA_Blynk_WEB_auth_OK.ino.merged.bin следующим образом: Установить: "Flash Download Tool", после запуска: ESP32, development. Выберите COM-порт контроллера на экране и путь к файлу BOLVANKA_Blynk_WEB_auth_OK.ino.merged.bin. Слева от имени файла выберите область, отмеченную V. Справа от пути к файлу: введите адрес 0x0000 и нажмите START. После повторного подключения к ESP32 Wroom найдите Wi-Fi "MY_BLYNK" без паспорта. Введите: SSID Wi-Fi, ПАРОЛЬ Wi-Fi, параметры Blynk. Включите "START BLYNK in work". И вуаля: Blynk успешно подключился к вашему аккаунту. Теперь всё для людей!
+1. Мы все любим Blynk. Но любой инструмент можно улучшить, поэтому я разработал способы обойти некоторые глупые ограничения.      Теперь с моей помощью вы можете динамически менять идентификатор Blynk прямо в меню WEB при первом подключении. Концептуальное решение, только для контроллера ESP32 Wroom: прошить файл BOLVANKA_Blynk_WEB_auth_OK.ino.merged.bin следующим образом: Установить: "Flash Download Tool", после запуска: ESP32, development. Выберите COM-порт контроллера на экране и путь к файлу BOLVANKA_Blynk_WEB_auth_OK.ino.merged.bin. Слева от имени файла выберите область, отмеченную V. Справа от пути к файлу: введите адрес 0x0000 и нажмите START. После повторного подключения к ESP32 Wroom найдите Wi-Fi "MY_BLYNK" без паспорта. Введите: SSID Wi-Fi, ПАРОЛЬ Wi-Fi, параметры Blynk. Включите "START BLYNK in work". И вуаля: Blynk успешно подключился к вашему аккаунту.
+ Теперь всё для людей!
    
 2. Шиманский запрограммировал один и тот же хедер для Wi-Fi и GSM.
 Глупый баг, препятствующий плавному переключению с Wi-Fi на GSM и наоборот.
@@ -43,5 +48,5 @@ Even TinyGSM can be turned into a gem!
 
 4. Я использую найденный мною способ смотреть координаты на карте в браузере, при наличии этих данных в бесплатном аккаунте Blynk.
  
-   Все эти функции могут быть добавлены в Ваш прекрасный код за небольшое вознаграждение. Пишите на почту olegfilatov@gmx.com
+   Все эти функции могут быть добавлены в Ваш прекрасный код, либо есть возможность приобрести полные проекты "Auto alarm with GPS", "Home Helper Full function System" за небольшое вознаграждение. Пишите на почту olegfilatov@gmx.com
    
