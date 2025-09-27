@@ -4,9 +4,9 @@
 //////////////////////////////////////////////////////////////////
 //PLEASE FILL IN THIS:
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPL4fa-kn3Dz"
-#define BLYNK_TEMPLATE_NAME "CAR GPS"
-#define BLYNK_AUTH_TOKEN "HDl45JpsYRZgO3nOyNjqZLBxPqDeuFlx"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 const char apn[] = "internet";   // Here - your SIM card APN
 const char wifiSSID[] = "";     // Here - your router SSID
