@@ -39,7 +39,7 @@ void setup() {
 
   gsmData.auth = BLYNK_AUTH_TOKEN;
   gsmData.modem = &modem;
-  gsm.apn = apn;
+  gsmData.apn = apn;
 ////////////////////////////////////////
   modem.restart();
   Blynk.setConnectionData(gsmData);
