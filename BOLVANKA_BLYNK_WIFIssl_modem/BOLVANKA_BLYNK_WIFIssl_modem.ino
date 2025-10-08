@@ -19,9 +19,9 @@
 /* Fill in information from Blynk Device Info here, but realy possible to put it dynamicaly(!), in WEB interface, see my precompilled proof: https://github.com/olegfilatof/BLYNKmodified/blob/main/BOLVANKA_Blynk_WEB_auth_OK.ino.merged.bin
 write to me if you want to compile your code with this functionality: olegfilatov@gmx.com
  */
-#define BLYNK_TEMPLATE_ID "TMPL4fa-kn3Dz"
-#define BLYNK_TEMPLATE_NAME "CAR GPS"
-#define BLYNK_AUTH_TOKEN "HDl45JpsYRZgO3nOyNjqZLBxPqDeuFlx"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 // Your GPRS credentials
 // Leave empty, if missing user or pass
